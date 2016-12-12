@@ -1,13 +1,15 @@
-﻿{
+{
   "version": "1.0.0-*",
 
   "dependencies": {
+    "xunit.runner.dnx": "2.1.0-rc1-build204",
+    "EasyFlatFile": "1.0.0-*",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0"
-    }
+    },
+    "xunit": "2.2.0-beta4-build3444"
   },
-
   "frameworks": {
     "netcoreapp1.0": {
       "imports": "dnxcore50"

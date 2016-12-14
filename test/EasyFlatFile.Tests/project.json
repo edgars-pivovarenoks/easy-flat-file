@@ -13,7 +13,8 @@
     }
 
   },
-  "frameworks": {    
+  "testRunner": "xunit",
+  "frameworks": {
     "netcoreapp1.2": {
       "imports": "dnxcore50"
     }

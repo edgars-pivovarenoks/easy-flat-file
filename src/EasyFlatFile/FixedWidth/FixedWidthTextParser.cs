@@ -39,7 +39,7 @@ namespace EasyFlatFile
             // TODO : Verify overlaps, zeros and othe typical errors etc..
         }
         private const string LINE_PARSING_ERROR_TEMPLATE = "{0} parsing exception : {1}";
-        public TDestination ParseTextLine(string textLine)
+        public TDestination ToDestinationType(string textLine)
         {
             var parsingErrors = new List<string>();
             var destination = new TDestination();
@@ -145,5 +145,6 @@ namespace EasyFlatFile
             return
                 destination;
         }
+        
     }
 }
